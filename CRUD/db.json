@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Abby",
+      "lastName": "Aiden",
+      "email": "abby@gmail.com",
+      "mobile": "9376487654",
+      "salary": "50000"
+    },
+    {
+      "id": 2,
+      "firstName": "RiyaDharshini",
+      "lastName": "Sekar",
+      "email": "priya@gmail.com",
+      "mobile": "9937652836",
+      "salary": "60000"
+    },
+    {
+      "id": 3,
+      "firstName": "Sai",
+      "lastName": "Kiran",
+      "email": "sai@gmail.com",
+      "mobile": "8985738272",
+      "salary": "70000"
+    },
+    {
+      "id": 4,
+      "firstName": "Kaveya",
+      "lastName": "Jessy",
+      "email": "kav12@gmail.com",
+      "mobile": "7538754367",
+      "salary": "50000"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

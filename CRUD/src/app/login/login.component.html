@@ -1,0 +1,50 @@
+
+<!--<div class="container mt-5">
+    <h1 align="center">Admin Login</h1><br>
+    <div class="container ">
+        <div class="alert alert-warning" *ngIf="invalidLogin"> {{errorMessage}} </div>
+    
+    <div align="center ">
+        Username: <input type="text" name="username" [(ngModel)]="username"/><br><br>
+        Password: <input type="password" name="password" [(ngModel)]="password" /><br><br>
+    
+        <button (click) = handleLogin()  class="btn btn-success">Login</button>
+    </div>
+    </div>
+    </div>-->
+  
+    <body class="img js-fullheight " style="background-color: #002752; background-size:cover;">
+		
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-4 sticky-top text-center mb-5">
+					<h1 class="heading-section">Event Management App</h1>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4">
+					<div class="login-wrap p-0">
+		      	<h3 class="mb-4 text-center">Admin Login</h3>
+		      	<form  class="signin-form">
+		      		<div class="form-group">
+		      			<input type="text" class="form-control" name="username" placeholder="Username" id="name" [(ngModel)]="username" required >
+						<div id="check"></div>
+		      		</div>
+	            <div class="form-group">
+	              <input id="password-field" type="password" name="password" class="form-control" placeholder="Password" [(ngModel)]="password" required >
+	              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+				  <div id="crt"></div>
+	            </div>
+				
+	            <div class="form-group">
+	            	<button type="button" class="form-control btn btn-primary  px-3 " (click) = handleLogin()>Login</button>
+	            </div>
+	            
+	          </form>
+	          
+		      </div>
+				</div>
+			</div>
+		</div>
+	</section>
